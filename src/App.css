@@ -23,11 +23,10 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: white;
   background-color: #363636;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-  border-bottom: 1px solid #474747;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   position: sticky;
   top: 0;
 }
