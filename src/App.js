@@ -56,9 +56,22 @@ function App() {
         </div>
         <div className="Projects" style={listStyle}>
           <h2 style={h2Style}>PROJECTS</h2>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
         </div>
         <div className="Contact" style={listStyle}>
           <h2 style={h2Style}>CONTACT</h2>
+          <ul>
+            <li>Email : jthe2817@naver.com</li>
+            <li>GitHub : https://github.com/CJE-cpu</li>
+            <li>Phone : 010-2969-2394</li>
+          </ul>
         </div>
       </div>
       <footer className="App-footer">

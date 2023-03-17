@@ -25,7 +25,9 @@ body {
   flex-direction: row;
   font-size: 1.2rem;
   color: #49494B;
-  background: white;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
   position: sticky;
   top: 0;
 }
@@ -99,6 +101,35 @@ canvas {
 
 .Skill ul li {
   padding: 100px;
+}
+
+.Projects ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Projects ul li {
+  width: 500px;
+  height: 400px;
+  background: #8E8E90;
+  border-radius: 10px;
+  margin: 100px 0;
+}
+
+.Contact ul {
+  width: 100%;
+  display: flex;
+  padding-top: 100px;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 2rem;
+  color: #49494B;
+}
+
+.Contact ul li {
+  padding: 50px 0;
 }
 
 .App-footer {
