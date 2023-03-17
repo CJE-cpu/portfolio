@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  font-family: "acumin-pro", sans-serif;
+  font-family: "noh-sori", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -12,7 +12,7 @@
 }
 
 body {
-  background-color: #363636;
+  background-color: white;
 }
 
 .App-header {
@@ -24,9 +24,8 @@ body {
   justify-content: center;
   flex-direction: row;
   font-size: 1.2rem;
-  color: white;
-  background-color: #363636;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  color: #49494B;
+  background: white;
   position: sticky;
   top: 0;
 }
@@ -46,64 +45,60 @@ body {
 
 .nav ul li:hover {
   cursor: pointer;
-  color: #E8175D;
   font-weight: 800;
   transition: 0.2s;
-  font-size: larger;
+}
+
+.profile {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background: url(images/banner_img.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .App-list {
-  height: 4000px;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
 
-.List {
+.About ul {
   width: 100%;
-  height: 750px;
-  margin: 150px;
   display: flex;
-  background-color: #474747;
-  border-radius: 10px;
-}
-
-h2{
-  display: flex;
-  align-self: flex-start;
-  padding: 50px 80px;
+  padding-top: 100px;
+  flex-direction: column;
+  align-items: flex-start;
   font-size: 2rem;
-  color: white;
-  font-weight: 800;
+  color: #49494B;
 }
 
-.skill {
-  width: 100%;
-  height: 750px;
-  margin: 0 150px;
-  margin-top: 100px;
-  display: flex;
-  background-color: #474747;
-  border-radius: 10px;
+.About ul li {
+  padding: 50px 0;
 }
 
-.projects {
+.Skill ul {
   width: 100%;
-  height: 750px;
-  margin: 0 150px;
-  margin-top: 100px;
   display: flex;
-  background-color: #474747;
-  border-radius: 10px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #49494B;
+  text-align: center;
 }
 
-.contact {
-  width: 100%;
-  height: 750px;
-  margin: 0 150px;
-  margin-top: 100px;
-  display: flex;
-  background-color: #474747;
-  border-radius: 10px;
+.Skill ul li {
+  padding: 100px;
 }
 
 .App-footer {
