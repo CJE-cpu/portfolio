@@ -16,7 +16,7 @@ function App() {
     color: '#49494B',
     fontWeight: 'bold'
   }
-  
+
   return (
     <div className="App">
       <header className="App-header">
@@ -30,7 +30,7 @@ function App() {
         </div>
       </header>
       <div className='profile'>
-        <canvas></canvas>
+        <p>나를 정의하는 하나의 단어</p>
       </div>
       <div className="App-list">
         <div className="About" style={listStyle}>
@@ -44,14 +44,14 @@ function App() {
         <div className="Skill" style={listStyle}>
           <h2 style={h2Style}>SKILL</h2>
           <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
+            <li style={{backgroundImage:'images/html.png'}}></li>
+            <li></li>
+            <li></li>
           </ul>
           <ul>
-            <li>React</li>
-            <li>Vue.js</li>
-            <li>TypeScript</li>
+            <li></li>
+            <li></li>
+            <li></li>
           </ul>
         </div>
         <div className="Projects" style={listStyle}>
@@ -69,13 +69,12 @@ function App() {
           <h2 style={h2Style}>CONTACT</h2>
           <ul>
             <li>Email : jthe2817@naver.com</li>
-            <li>GitHub : https://github.com/CJE-cpu</li>
+            <li>GitHub : <a href='https://github.com/CJE-cpu'>https://github.com/CJE-cpu</a></li>
             <li>Phone : 010-2969-2394</li>
           </ul>
         </div>
       </div>
       <footer className="App-footer">
-        <div></div>
       </footer>
     </div>
   );

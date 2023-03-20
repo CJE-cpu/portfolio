@@ -5,6 +5,7 @@
   font-family: "noh-sori", sans-serif;
   font-weight: 400;
   font-style: normal;
+  text-decoration: none;
 }
 
 .App {
@@ -30,6 +31,7 @@ body {
   backdrop-filter: blur(15px);
   position: sticky;
   top: 0;
+  z-index: 10;
 }
 
 .nav {
@@ -48,7 +50,7 @@ body {
 .nav ul li:hover {
   cursor: pointer;
   font-weight: 800;
-  transition: 0.2s;
+  transition: 0.2s ease-in-out;
 }
 
 .profile {
@@ -57,15 +59,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-canvas {
-  width: 100%;
-  height: 100%;
-  display: flex;
   background: url(images/banner_img.jpg);
   background-position: center;
   background-size: cover;
+}
+
+.profile p {
+  font-size: 3rem;
+  color: black;
+  display: flex;
+  position: relative;
+  font-style: italic;
+  font-family: "epilogue-210", sans-serif;
+  font-weight: bold;
+  margin-right: 450px;
 }
 
 .App-list {
@@ -93,7 +100,7 @@ canvas {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   font-size: 1.5rem;
   color: #49494B;
   text-align: center;
@@ -101,6 +108,15 @@ canvas {
 
 .Skill ul li {
   padding: 100px;
+  background: white;
+  border-radius: 10px;
+  margin: 100px 0;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);;
+}
+
+.Skill ul li:hover {
+  background-color: #8E8E90;
+  transition: 0.2s ease-in-out;
 }
 
 .Projects ul {
@@ -113,9 +129,15 @@ canvas {
 .Projects ul li {
   width: 500px;
   height: 400px;
-  background: #8E8E90;
+  background: white;
   border-radius: 10px;
   margin: 100px 0;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);;
+}
+
+.Projects ul li:hover {
+  background-color: #8E8E90;
+  transition: 0.2s ease-in-out;
 }
 
 .Contact ul {
@@ -132,7 +154,13 @@ canvas {
   padding: 50px 0;
 }
 
+.Contact ul li a {
+  color: #49494B;
+}
+
 .App-footer {
+  width: 100%;
   height: 150px;
   display: flex;
+  background: #49494B;
 }
