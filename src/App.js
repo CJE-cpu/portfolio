@@ -44,7 +44,7 @@ function App() {
         <div className="Skill" style={listStyle}>
           <h2 style={h2Style}>SKILL</h2>
           <ul>
-            <li style={{backgroundImage:'images/html.png'}}></li>
+            <li></li>
             <li></li>
             <li></li>
           </ul>
