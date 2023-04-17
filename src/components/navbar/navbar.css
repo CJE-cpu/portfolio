@@ -1,0 +1,101 @@
+.portfolio__navbar {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background: #fff;
+    color: var(--color-text);
+    padding: 0 8rem;
+}
+
+.portfolio__navbar-links {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-family: var(--font-family);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio__navbar-links_logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.portfolio__navbar-links_logo img {
+    width: 75px;
+}
+
+.portfolio__navbar-links_logo:hover {
+    cursor: pointer;
+}
+
+.portfolio__navbar-links_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+    color: var(--color-text);
+}
+
+a:hover {
+    color: var(--color-highlight);
+    transition: 0.1s;
+    font-weight: bold;
+}
+
+.portfolio__navbar-menu {
+    display: none;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1050px) {
+    .portfolio__navbar-links_container {
+        font-size: 18px;
+        width: 200%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .portfolio__navbar-links_logo {
+        justify-content: flex-start;
+    }
+
+    .portfolio__navbar-links_container {
+        display: none;
+    }
+
+    .portfolio__navbar-menu {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
+    .portfolio__navbar-menu:hover {
+        cursor: pointer;
+    }
+
+    .portfolio__navbar-menu_container {
+        width: 250px;
+        height: 200px;
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        border:1.5px solid var(--color-highlight);
+        border-radius: 5px;
+        text-align: center;
+        margin-right: 40px;
+        margin-top: 120px;
+        font-size: 20px;
+        line-height: 40px;
+        background: #fff;
+    }
+}

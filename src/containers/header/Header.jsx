@@ -1,9 +1,14 @@
 import './header.css'
 import React from 'react'
+import Button from '../../components/button/Button'
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <div className='portfolio__header'>
+      <div className='portfolio__header-text'>
+        <p></p>
+      </div>
+    </div>
   )
 }
 

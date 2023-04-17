@@ -2,12 +2,11 @@
 
 :root {
   --font-family: 'noh-sori', sans-serif;
-
-  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  --font-header: 'epilogue-210', 'sans-serif';
   
-  --color-bg: #040C18;
-  --color-footer : #031B34;
-  --color-text: #81AFDD;
-  --color-subtext: #FF8A71;
+  --color-lightgray: #A8A7A7;
+  --color-highlight: #E8175D;
+  --color-hover : #CC527A;
+  --color-text: #363636;
+  --color-subtext: #474747;
 }
