@@ -1,5 +1,7 @@
 import './projects.css'
 import React from 'react'
+import Pcontainer from '../../components/pcontainer/Pcontainer'
+import css from '../../assets/css.png'
 
 const Projects = () => {
   return (
@@ -8,6 +10,7 @@ const Projects = () => {
         <h1>PROJECTS</h1>
       </div>
       <div className='portfolio__project-container'>
+        <Pcontainer title="project1" image={css} text="project1" />
       </div>
     </div>
   )

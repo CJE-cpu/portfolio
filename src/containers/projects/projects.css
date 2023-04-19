@@ -14,3 +14,11 @@
     color: var(--color-highlight);
     letter-spacing: 0.1rem;
 }
+
+.portfolio__project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}

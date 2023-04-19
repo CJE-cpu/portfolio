@@ -9,11 +9,11 @@ const About = () => {
       </div>
       <div className='portfolio__about-container'>
         <p>
-          안녕하세요! 저는 웹 퍼블리셔 최정은입니다.
+          안녕하세요! 저는 프론트엔드 개발자 최정은입니다.
           <br/>
           react와 typescript 위주로 개발을 하고 있으며 
           <br/>
-          디자인과 기능성 모두 사로잡는 웹 퍼블리셔가 되겠습니다.
+          디자인과 기능성 모두 사로잡는 프론트엔드 개발자가 되겠습니다.
         </p>
       </div>
       <div className='portfolio__about-history'>

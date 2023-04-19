@@ -1,0 +1,35 @@
+.portfolio__pcontainer {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 4rem;
+}
+
+.portfolio__pcontainer-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+.portfolio__pcontainer-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 320px;
+    border: 1px solid #D1DBDB;
+    border-radius: 10px;
+    box-shadow: 0px 10px 5px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.portfolio__pcontainer-text {
+    position: absolute;
+    display: flex;
+    width: 500px;
+    height: 100px;
+    overflow: scroll;
+    border: 1px solid darkblue;
+    border-radius: 0 0 10px 10px;
+}

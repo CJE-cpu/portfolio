@@ -9,21 +9,3 @@
     background: url(../../assets/note.jpg);
     background-size: cover;
 }
-
-.portfolio__header-text {
-    width: 100%;
-    font-family: var(--font-header);
-    font-size: 54px;
-    position: relative;
-    display: flex;
-    justify-content: flex-start;
-    top: -5rem;
-    padding-left: 18rem;
-    transform: rotate(-19.1deg);
-}
-
-@media screen and (max-width: 1050px) {
-    .portfolio__header-text {
-        font-size: 40px;
-    }
-}

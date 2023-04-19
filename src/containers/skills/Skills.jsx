@@ -1,6 +1,7 @@
 import './skills.css'
 import React from 'react'
-import { html, css, javascript, react, vue, typescript } from '../../assets'
+import Scontainer from '../../components/scontainer/Scontainer'
+import { javascript, react, typescript } from '../../assets'
 
 const Skills = () => {
   return (
@@ -9,14 +10,13 @@ const Skills = () => {
         <h1>SKILLS</h1>
       </div>
       <div className='portfolio__skill-container'>
-        <ul>
-          <li><img src={html} alt="html"/></li>
-          <li><img src={css} alt="css"/></li>
-          <li><img src={javascript} alt="javascript"/></li>
-          <li><img src={react} alt="react"/></li>
-          <li><img src={vue} alt="vue"/></li>
-          <li><img src={typescript} alt="typescript"/></li>
-        </ul>
+        <Scontainer title="javascript" image={javascript} />
+        <Scontainer title="react" image={react} />
+        <Scontainer title="typescript" image={typescript} />
+        <Scontainer title="typescript" image={typescript} />
+        <Scontainer title="typescript" image={typescript} />
+        <Scontainer title="typescript" image={typescript} />
+        <Scontainer title="typescript" image={typescript} />
       </div>
     </div>
   )
