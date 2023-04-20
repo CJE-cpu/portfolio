@@ -13,10 +13,6 @@ const Skills = () => {
         <Scontainer title="javascript" image={javascript} />
         <Scontainer title="react" image={react} />
         <Scontainer title="typescript" image={typescript} />
-        <Scontainer title="typescript" image={typescript} />
-        <Scontainer title="typescript" image={typescript} />
-        <Scontainer title="typescript" image={typescript} />
-        <Scontainer title="typescript" image={typescript} />
       </div>
     </div>
   )
