@@ -1,0 +1,16 @@
+button {
+    background: var(--color-highlight);
+    border: none;
+    padding: 1rem 2rem;
+    font-family: var(--font-family);
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    letter-spacing: 0.1rem;
+}
+
+button:hover {
+    cursor: pointer;
+    letter-spacing: 0.2rem;
+    transition: 0.1s;
+}

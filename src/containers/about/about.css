@@ -1,0 +1,69 @@
+.portfolio__about {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 2rem 8rem;
+}
+
+.portfolio__about-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    font-family: var(--font-family);
+    font-size: 30px;
+    color: var(--color-highlight);
+    letter-spacing: 0.1rem;
+}
+
+.portfolio__about-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5rem;
+    font-family: var(--font-family);
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 60px;
+    color: var(--color-text);
+}
+
+.portfolio__about-history, .portfolio__about-license {
+    padding-top: 10rem;
+    font-size: 24px;
+    line-height: 62px;
+    list-style: none;
+    font-family: var(--font-family);
+    color: var(--color-text);
+}
+
+.portfolio__about-history h2, .portfolio__about-license h2 {
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 1050px) {
+    .portfolio__about-title {
+        font-size: 24px;
+    }
+
+    .portfolio__about-container {
+        font-size: 22px;
+    }
+
+    .portfolio__about-history, .portfolio__about-license {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .portfolio__about-title {
+        font-size: 20px;
+    }
+
+    .portfolio__about-container {
+        font-size: 18px;
+    }
+
+    .portfolio__about-history, .portfolio__about-license {
+        font-size: 16px;
+    }
+}

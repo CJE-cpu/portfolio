@@ -1,0 +1,34 @@
+.portfolio__scontainer {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 4rem;
+}
+
+.portfolio__scontainer-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+.portfolio__scontainer-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #D1DBDB;
+    border-radius: 10px;
+    box-shadow: 0px 10px 5px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.portfolio__scontainer-image {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio__scontainer-image img {
+    width: 200px;
+}
