@@ -8,7 +8,7 @@ const Contact = () => {
         <h1>CONTACT</h1>
       </div>
       <div className='portfolio__contact'>
-        <div className=''></div>
+        <div className='portfolio__contact'></div>
       </div>
     </div>
   )
