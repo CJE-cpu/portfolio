@@ -12,7 +12,7 @@ const Projects = () => {
       <div className='portfolio__project-container'>
         <Pcontainer title="gpt3" image={project1} text="react를 사용하여 만든 gpt3 웹사이트" />
         <Pcontainer title="Modern Restaurant" image={project2} text="react를 사용하여 만든 레스토랑 웹사이트" />
-        <Pcontainer title="project1" image={project3} text="vite와 react를 사용하여 만든 은행 웹사이트" />
+        <Pcontainer title="bank" image={project3} text="vite와 react를 사용하여 만든 은행 웹사이트" />
       </div>
     </div>
   )
